@@ -1,5 +1,5 @@
 myip:
-  command: "~/Alias-wizard/scripts/myip.sh"
+  command: "$HOME/Scripts/myip.sh"
 q:
   command: "exit 0"
 cat:
@@ -11,4 +11,4 @@ trans:
 xclip:
   command: "xclip -sel clip"
 genpass:
-  command: "~/Scripts/password-generator.sh --length"
+  command: "$HOME/Scripts/password-generator.sh --length"
