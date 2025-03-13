@@ -13,7 +13,7 @@ yq e 'keys | .[]' "${yaml_file}" | while read -r key; do
 done
 
 
-echo -e "✅ Success!"
 echo "Generated ${output_file}"
 echo "To start using aliases, add to your shell config:"
 echo -e "\033[33msource ${output_file}\033[0m"
+echo -e "✅ Success!"
