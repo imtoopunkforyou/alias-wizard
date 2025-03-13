@@ -1,7 +1,0 @@
-aliases:
-  myip:
-    script: "https://raw.githubusercontent.com/imtoopunkforyou/myip/refs/heads/main/myip.sh"
-    command: "~/Alias-wizard/scripts/myip.sh"
-  q:
-    script: null
-    command: "exit 0"

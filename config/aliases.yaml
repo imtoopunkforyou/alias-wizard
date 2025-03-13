@@ -1,7 +1,14 @@
-aliases:
-  myip:
-    script: "https://raw.githubusercontent.com/imtoopunkforyou/myip/refs/heads/main/myip.sh"
-    command: "~/Alias-wizard/scripts/myip.sh"
-  q:
-    script: null
-    command: "exit 0"
+myip:
+  command: "~/Alias-wizard/scripts/myip.sh"
+q:
+  command: "exit 0"
+cat:
+  command: "bat"
+cl:
+  command: "clear"
+trans:
+  command: "trans :ru -b"
+xclip:
+  command: "xclip -sel clip"
+genpass:
+  command: "~/Scripts/password-generator.sh --length"
