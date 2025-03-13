@@ -1,6 +1,6 @@
 #!/bin/bash
 
-URL="https://raw.githubusercontent.com/imtoopunkforyou/alias-wizard/refs/heads/main/aliases.yaml"
+URL="https://raw.githubusercontent.com/imtoopunkforyou/alias-wizard/refs/heads/main/config/aliases.yaml"
 filename=$(basename "$URL")
 
 if [[ ! "$filename" =~ \.ya?ml$ ]]; then
